@@ -1,6 +1,8 @@
 # lqus
 Legally questionable userscripts I wrote.
 
+Don't use these for illegal things *or do, I guess I can't stop you*.
+
 ## YarrPlay
 Script that adds movie embeds from [vidsrc.me](https://vidsrc.me) onto IMDb pages seamlessly.
 
