@@ -4,6 +4,8 @@ Legally questionable userscripts I wrote.
 ## YarrPlay
 Script that adds movie embeds from [vidsrc.me](https://vidsrc.me) onto IMDb pages seamlessly.
 
+I highly recommend you have something like [uBlock Origin](https://github.com/gorhill/uBlock/) installed if you're gonna use this.
+
 ### Screenshot
 ![Example image on Big Buck Bunny](https://i.ibb.co/wy8htyr/image.png)
 
