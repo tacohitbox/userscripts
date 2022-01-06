@@ -10,3 +10,11 @@ I highly recommend you have something like [uBlock Origin](https://github.com/go
 ![Example image on Big Buck Bunny](https://i.ibb.co/wy8htyr/image.png)
 
 ### [Install](https://github.com/tacohitbox/lqus/raw/main/yarrplay.user.js)
+
+## VidSrc Improver
+ 
+Script that removes videos that are unplayable from [vidsrc.me](https://vidsrc.me).
+
+Still recommended to have [uBlock Origin](https://github.com/gorhill/uBlock/) installed.
+
+### [Install](https://github.com/tacohitbox/lqus/raw/main/vidsrc.improver.user.js)
