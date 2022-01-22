@@ -1,5 +1,5 @@
-# lqus
-Legally questionable userscripts I wrote.
+# userscripts
+Some userscripts I wrote. Some of these are legally questionable, others are just useful to the average user.
 
 Don't use these for illegal things *or do, I guess I can't stop you*.
 
