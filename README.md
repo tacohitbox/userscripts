@@ -35,3 +35,5 @@ Before you add the userscript:
 After you add it: 
 
 ![After, the links are shown despite you not having your adblocker off!](https://i.ibb.co/2q6Y2F6/image.png)
+
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/napalm.bypass.user.js)
