@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YarrPlay
-// @version      1.1
+// @version      1.2
 // @description  Play/download movies right on the IMDb page of each show/movie.
 // @author       tacohitbox
 // @match        https://www.imdb.com/title/tt*
@@ -22,9 +22,9 @@ if (getType() == "movie") {
   i.setAttribute("allowfullscreen", "");
   if (document.querySelector(".dDhYrh")) {
     document.querySelector(".dDhYrh").append(i);
-  } else {
+  } else if (document.querySelector(".iEHpKn")) {
     i.style = "width:100%;height:325px;display:block;border:0;margin-top:10px;";
-    document.querySelector(".dYxvce").append(i);
+    document.querySelector(".iEHpKn").append(i);
   }
 } else if (getType() == "tv") {
   var idp = `tt${document.querySelector(".ipc-link").href.split("/tt")[1].split("/")[0]}`;
@@ -49,11 +49,7 @@ if (getType() == "movie") {
 }
 
 function getType() {
-  if (
-    document.querySelector(".jswntl") == null &&
-    document.querySelector(".episode-guide-text") == null &&
-    document.querySelector(".dYxvce") !== null
-  ) {return "movie";}
-  else if (document.querySelector(".gCtawA") == null && document.querySelector(".dDhYrh") == null && document.querySelector(".ebbHRh") == null || document.querySelector(".kzEMhq") !== null) {return "s";}
+  if (document.querySelectorAll(".dxizHm .ipc-inline-list__item")[0].innerHTML == "TV Series") {return "s";}
+  else if (document.querySelectorAll(".dxizHm li")[0].innerHTML.includes("aired") == false) {return "movie";}
   else {return "tv";}
 }
