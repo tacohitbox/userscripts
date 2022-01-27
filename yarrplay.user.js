@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         YarrPlay
-// @version      1.2
+// @version      1.2.1
 // @description  Play/download movies right on the IMDb page of each show/movie.
 // @author       tacohitbox
-// @match        https://www.imdb.com/title/tt*
+// @match        https://*.imdb.com/title/tt*
 // @icon         https://www.google.com/s2/favicons?domain=imdb.com
 // @grant        none
 // ==/UserScript==
@@ -49,7 +49,7 @@ if (getType() == "movie") {
 }
 
 function getType() {
-  if (document.querySelectorAll(".dxizHm .ipc-inline-list__item")[0].innerHTML == "TV Series") {return "s";}
+  if (document.querySelectorAll(".dxizHm .ipc-inline-list__item")[0].innerHTML == "TV Series" || document.querySelectorAll(".dxizHm .ipc-inline-list__item")[0].innerHTML == "Video Game") {return "s";}
   else if (document.querySelectorAll(".dxizHm li")[0].innerHTML.includes("aired") == false) {return "movie";}
   else {return "tv";}
 }
