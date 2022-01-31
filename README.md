@@ -37,3 +37,9 @@ After you add it:
 ![After, the links are shown despite you not having your adblocker off!](https://i.ibb.co/2q6Y2F6/image.png)
 
 ### [Install](https://github.com/tacohitbox/userscripts/raw/main/napalm.bypass.user.js)
+
+## USTVGO / USTV247 Improver
+
+This userscript removes channels that require the VPN and other various improvements.
+
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/ustvgo.improver.user.js)
