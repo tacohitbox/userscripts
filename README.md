@@ -48,4 +48,4 @@ This userscript removes channels that require the VPN and other various improvem
 
 Removed `/redirect/` and makes links not open in a new tab.
 
-### [Install](https://github.com/tacohitbox/userscripts/raw/main/ustvgo.improver.user.js)
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/justpasteit.annoyances.user.js)
