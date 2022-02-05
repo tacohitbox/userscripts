@@ -4,6 +4,7 @@
 // @description  This userscript removes channels that require the VPN and other various improvements.
 // @author       tacohitbox
 // @match        https://ustvgo.tv/*
+// @match        https://ustv247.tv/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ustvgo.tv
 // @grant        none
 // ==/UserScript==
