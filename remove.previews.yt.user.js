@@ -15,6 +15,6 @@ document.body.append(s);
 setInterval(function() {
   if (document.getElementById("video-preview-container")) document.getElementById("video-preview-container").remove()
   if (document.getElementById("inline-player")) document.getElementById("inline-player").remove()
-	if (document.getElementById("inline-preview-player")) document.getElementById("inline-preview-player").remove()
-	document.querySelectorAll(".ytp-inline-preview-ui").forEach(function(e) {e.remove()})
+  if (document.getElementById("inline-preview-player")) document.getElementById("inline-preview-player").remove()
+  document.querySelectorAll(".ytp-inline-preview-ui").forEach(function(e) {e.remove()})
 }, 1000)
