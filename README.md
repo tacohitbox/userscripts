@@ -49,3 +49,9 @@ This userscript removes channels that require the VPN and other various improvem
 Removed `/redirect/` and makes links not open in a new tab.
 
 ### [Install](https://github.com/tacohitbox/userscripts/raw/main/justpasteit.annoyances.user.js)
+
+## Latest Tweets by Default
+
+Auto-selects and opens the "Latest Tweets" tab in Twitter upon loading the homepage.
+
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/auto.latest.twitter.user.js)
