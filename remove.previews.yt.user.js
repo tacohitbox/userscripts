@@ -9,12 +9,12 @@
 // ==/UserScript==
 
 var s = document.createElement("style");
-s.innerHTML = `ytd-thumbnail[now-playing] ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-toggle-button-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-endorsement-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-button-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-hover-text-renderer.ytd-thumbnail {display: inherit !important;} .ytd-rich-item-renderer #hover-overlays {display: none !important;}`;
+s.innerHTML = `ytd-thumbnail[now-playing] ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-toggle-button-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-endorsement-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-button-renderer.ytd-thumbnail, ytd-thumbnail[is-preview-loading] ytd-thumbnail-overlay-hover-text-renderer.ytd-thumbnail {display: inherit !important;} .ytd-rich-item-renderer #hover-overlays {display: none !important;} ytd-moving-thumbnail-renderer {display: none !important;}`;
 document.body.append(s);
 
 setInterval(function() {
   if (document.getElementById("video-preview-container")) document.getElementById("video-preview-container").remove()
   if (document.getElementById("inline-player")) document.getElementById("inline-player").remove()
-  if (document.getElementById("inline-preview-player")) document.getElementById("inline-preview-player").remove()
-  document.querySelectorAll(".ytp-inline-preview-ui").forEach(function(e) {e.remove()})
+	if (document.getElementById("inline-preview-player")) document.getElementById("inline-preview-player").remove()
+	document.querySelectorAll(".ytp-inline-preview-ui").forEach(function(e) {e.remove()})
 }, 1000)
