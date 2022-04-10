@@ -61,3 +61,9 @@ Auto-selects and opens the "Latest Tweets" tab in Twitter upon loading the homep
 Disables the feature that injects autoplaying previews when you hover over a video on the homepage.
 
 ### [Install](https://github.com/tacohitbox/userscripts/raw/main/remove.previews.yt.user.js) | [Video preview](https://streamable.com/18nfhq)
+
+## Fix Descriptions of eBay listings
+
+Sometimes eBay description iframes are tiny in width. This expands them all the way.
+
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/ebay.descriptions.user.js) 
