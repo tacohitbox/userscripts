@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         USTVGO/247 Improver
-// @version      1.0
+// @version      1.0.1
 // @description  This userscript removes channels that require the VPN and other various improvements.
 // @author       tacohitbox
 // @match        https://ustvgo.tv/*
@@ -69,6 +69,6 @@ document.querySelectorAll("a").forEach(function(ele) {
   if (doIblockIt(ele.innerHTML.toLowerCase()) && ele.parentElement.tagName == "LI") ele.parentElement.remove()
   if (doIblockIt(ele.innerHTML.toLowerCase()) && ele.parentElement.tagName == "STRONG" && ele.innerHTML !== "https://ustvgo.tv/vpn/") ele.parentElement.parentElement.remove()
   if (doIblockIt(ele.innerHTML.toLowerCase()) && ele.parentElement.tagName == "H2") ele.parentElement.parentElement.parentElement.parentElement.remove();
-  if (ele.innerHTML == "https://ustvgo.tv/vpn/") ele.parentElement.remove()
+  if (ele.innerHTML == "https://ustvgo.tv/vpn/" || ele.innerHTML == "https://ustv247.tv/vpn/") ele.parentElement.remove()
   if (ele.classList.contains("more-link")) ele.remove()
 });
