@@ -67,3 +67,9 @@ Disables the feature that injects autoplaying previews when you hover over a vid
 Sometimes eBay description iframes are tiny in width. This expands them all the way.
 
 ### [Install](https://github.com/tacohitbox/userscripts/raw/main/ebay.descriptions.user.js) 
+
+## Git.gay mirror settings
+
+Button that disables wikis, issues, projects, and pull requests.
+
+### [Install](https://github.com/tacohitbox/userscripts/raw/main/git.gay.mirrors.user.js) 
